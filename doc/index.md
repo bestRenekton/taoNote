@@ -1,0 +1,97 @@
++ 理论知识
+    + 硬知识
+        + http标准
+        + w3c标准
+            + html html5
+            + css css3
+            + javascript
+                + DOM
+                + BOM
+                + ECMAScript标准
+            + XML
+        + ECMAScript标准
+    + 软知识
+        + 算法
+            + 基础算法
+            + 复杂度
+            + 排序
+                + 冒泡
+                + 快排
+            + 搜索
+                + 二分查找
+         + 数据结构
+            + 链表
+            + 树
+            + 图
+        + 设计模式
+            + 设计模式基础
+            + 设计模式实践
+            + 面向对象
+            + 单例
+            + 观察者模式
+            + 代理模式
+            + 装饰器模式
+        + 面试
+            + 面试准备
+            + JD分析
+            + 一面
+            + 二面
+            + 三面
+            + 面试心态
+            + 职业规划
++ 编码开发
+    + 开发工具
+        + 编辑器
+            + VSCode
+            + WebStorm
+        + 效率工具
+    + 版本控制
+    + 调试
+    + 测试
++ 运行环境
+    + 浏览器
+        + 性能优化
+            + 性能指标
+            + 性能优化军规
+            + 代码执行更快
+                + 防抖
+                + 节流
+                + react性能优化
+                + vue性能优化
+            + 文件加载更快
+                + 打包
+                + 压缩
+                + 缓存
+        + web安全
+            + 持久化攻击
+            + 爬虫对抗
+            + 安全攻防
+            + 安全漏洞
+            + 同源策略
+            + sql注入
+            + xss
+            + csrf
+        + 兼容
+        + 端
+            + PC
+            + 桌面应用
+            + 移动
+                + 原生开发
+                + 跨平台
+                    + H5+原生（Cordova、Ionic、微信小程序）
+                    + JavaScript开发+原生渲染 （React Native、Weex、快应用）
+                    + 自绘UI+原生(QT for mobile、Flutter)
+    + Node
++ 类库框架
+    + 用于浏览器
+        + jQuery
+        + Bootstrap
+        + React
+        + Vue
+        + Angular
+    + 用于Node.js
+        + Express
+        + Koa
++ 其他语言
+    + php
+    + python
