@@ -5,11 +5,17 @@
             + html html5
             + css css3
             + javascript
+                + ECMAScript标准
                 + DOM
                 + BOM
-                + ECMAScript标准
             + XML
         + ECMAScript标准
+            + ES6 2015
+            + ES7 2016
+            + ES8 2017
+            + ES9 2018
+            + ES10 2019
+            + ES11 2020
     + 软知识
         + 算法
             + 基础算法
@@ -46,8 +52,14 @@
             + WebStorm
         + 效率工具
     + 版本控制
+        + Git
+        + SVN
     + 调试
     + 测试
+        + 测试分类
+        + 单元测试
+        + E2E测试
+        + react测试
 + 运行环境
     + 浏览器
         + 性能优化
@@ -75,12 +87,24 @@
         + 端
             + PC
             + 桌面应用
+                + Electron
+                + NW.js
             + 移动
                 + 原生开发
+                    + iOS
+                    + Android
                 + 跨平台
-                    + H5+原生（Cordova、Ionic、微信小程序）
-                    + JavaScript开发+原生渲染 （React Native、Weex、快应用）
-                    + 自绘UI+原生(QT for mobile、Flutter)
+                    + H5+原生
+                        + 公众号
+                        + 小程序
+                        + Cordova、Ionic
+                    + JavaScript开发+原生渲染
+                        + React Native
+                        + Weex
+                        + 快应用
+                    + 自绘UI+原生
+                        + Flutter
+                        + QT for mobile
     + Node
 + 类库框架
     + 用于浏览器
