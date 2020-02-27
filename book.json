@@ -1,0 +1,44 @@
+{
+  "title": "TaoNote",
+  "author": "yangyuetao",
+  "description": "TaoNote",
+  "plugins": [
+    "-lunr",
+    "-search",
+    "search-pro",
+    "back-to-top-button",
+    "page-toc-button",
+    "chapter-fold",
+    "expandable-chapters",
+    "splitter",
+    "code",
+    "insert-logo",
+    "custom-favicon",
+    "popup",
+    "-sharing",
+    "sharing-plus"
+  ],
+  "pluginsConfig": {
+    "insert-logo": {
+      "url": "/static/img/logo.png",
+      "style": "background: none; max-height: 30px; min-height: 30px"
+    },
+    "favicon": "/static/img/hyico.ico",
+    "sharing": {
+      "all": [
+        "douban",
+        "facebook",
+        "google",
+        "instapaper",
+        "linkedin",
+        "twitter",
+        "weibo",
+        "messenger",
+        "qq",
+        "qzone",
+        "viber",
+        "whatsapp"
+      ]
+    }
+  }
+}
