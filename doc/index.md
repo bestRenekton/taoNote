@@ -1,10 +1,10 @@
 + 理论知识
     + 硬知识
-        + http标准
-        + w3c标准
-            + html html5
-            + css css3
-            + javascript
+        + HTTP标准
+        + W3C标准
+            + HTML HTML5
+            + CSS CSS3
+            + JavaScript
                 + ECMAScript标准
                 + DOM
                 + BOM
@@ -45,6 +45,7 @@
             + 三面
             + 面试心态
             + 职业规划
+        + 设计/UI/摄影
 + 编码开发
     + 开发工具
         + 编辑器
@@ -59,7 +60,11 @@
         + 测试分类
         + 单元测试
         + E2E测试
-        + react测试
+        + React测试
+    + 部署
+        + Linux
+        + 容器
+        + 持续集成
 + 运行环境
     + 浏览器
         + 性能优化
@@ -68,8 +73,8 @@
             + 代码执行更快
                 + 防抖
                 + 节流
-                + react性能优化
-                + vue性能优化
+                + React性能优化
+                + Vue性能优化
             + 文件加载更快
                 + 打包
                 + 压缩
@@ -80,9 +85,9 @@
             + 安全攻防
             + 安全漏洞
             + 同源策略
-            + sql注入
-            + xss
-            + csrf
+            + SQL注入
+            + XSS
+            + CSRF
         + 兼容
         + 端
             + PC
@@ -105,7 +110,7 @@
                     + 自绘UI+原生
                         + Flutter
                         + QT for mobile
-    + Node
+    + Node.js
 + 类库框架
     + 用于浏览器
         + jQuery
@@ -116,6 +121,9 @@
     + 用于Node.js
         + Express
         + Koa
-+ 其他语言
-    + php
-    + python
++ 语言
+    + Typescript
+    + AssemblyScript
+    + Dart
+    + PHP
+    + Python
