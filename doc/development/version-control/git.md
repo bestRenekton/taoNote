@@ -1,7 +1,7 @@
 <!--
  * @Author: yyt
  * @Date: 2020-05-19 10:22:23
- * @LastEditTime: 2020-05-20 09:42:28
+ * @LastEditTime: 2020-05-20 10:01:17
  * @LastEditors: yyt
  * @FilePath: /taoNote/doc/development/version-control/git.md
 -->
@@ -36,3 +36,8 @@
 
 `git config [--global] user.name "[name]"`
 `git config [--global] user.email "[email address]"`
+
+# 设置别名
+
+`git config --global alias.co checkout`
+`git config --global alias.br branch`
