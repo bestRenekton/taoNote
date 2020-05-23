@@ -1,7 +1,7 @@
 <!--
  * @Author: yyt
  * @Date: 2020-05-19 10:22:23
- * @LastEditTime: 2020-05-21 16:16:11
+ * @LastEditTime: 2020-05-22 17:39:15
  * @LastEditors: yyt
  * @FilePath: /taoNote/doc/development/version-control/git.md
 -->
@@ -43,6 +43,12 @@
 - 添加
   - `git add .` 添加当前目录的所有文件到暂存区
   - `git add -p` 添加每个变化前，都会要求确认.对于同一个文件的多处变化，可以实现分次提交
+    - y add 此块
+    - n 放弃此块
+    - q 退出 add
+    - a add 整个文件
+    - d 放弃整个文件
+    - e 编辑
   - `git add [file1] [file2]` 指定文件
   - `git add [dir]` 添加指定目录,包括子目录
 - 删除
@@ -218,3 +224,16 @@
 ```bash
 /dist
 ```
+
+## 自动补全分支名
+
+- git-completion
+  - `brew install bash-completion`
+  - `vim ~/.zshrc`
+  ```bash
+  # auto-completion
+  if [ -f /opt/local/etc/profile.d/bash_completion.sh ]; then
+    . /opt/local/etc/profile.d/bash_completion.sh
+  fi
+  ```
+  - `source ~/.zshrc`
