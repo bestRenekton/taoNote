@@ -1,7 +1,7 @@
 <!--
  * @Author: yyt
  * @Date: 2020-05-19 10:22:23
- * @LastEditTime: 2020-05-25 09:20:41
+ * @LastEditTime: 2020-05-28 14:56:18
  * @LastEditors: yyt
  * @FilePath: /taoNote/doc/development/version-control/git.md
 -->
@@ -37,6 +37,7 @@
 - 设置别名
   - `git config --global alias.co checkout`
   - `git config --global alias.br branch`
+  - `git config --global alias.rank "shortlog -sn --no-merges"`
 
 ## 增加/删除文件
 
@@ -210,7 +211,8 @@ alias.ac=!git add . && git commit
 alias.acm=!git add . && git commit -m
 alias.l=log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
 alias.ll=log --stat --abbrev-commit
-alias.lg=log --color --graph --pretty=format:'%C(bold white)%h%Creset -%C(bold green)%d%Creset %s %C(bold green)(%cr)%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+alias.lg=log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+alias.lga=log --color --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 alias.llg=log --color --graph --pretty=format:'%C(bold white)%H %d%Creset%n%s%n%+b%C(bold blue)%an <%ae>%Creset %C(bold green)%cr (%ci)' --abbrev-commit
 alias.d=diff
 alias.master=checkout master
@@ -219,6 +221,7 @@ alias.spush=svn dcommit
 alias.alias=!git config --list | grep 'alias\.' | sed 's/alias\.\([^=]*\)=\(.*\)/\1\     => \2/' | sort
 alias.co=checkout
 alias.br=branch
+alias.rank=shortlog -sn --no-merges
 ```
 
 # 案例

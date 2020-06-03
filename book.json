@@ -20,10 +20,10 @@
   ],
   "pluginsConfig": {
     "insert-logo": {
-      "url": "/static/img/logo.png",
+      "url": "https://yangyuetao.cn/demos/static/img/taoNote/3.png",
       "style": "background: none; max-height: 30px; min-height: 30px"
     },
-    "favicon": "/static/img/hyico.ico",
+    "favicon": "https://yangyuetao.cn/demos/static/img/taoNote/4.ico",
     "sharing": {
       "all": [
         "douban",
