@@ -1,7 +1,7 @@
 <!--
  * @Author: yyt
  * @Date: 2020-02-27 17:21:42
- * @LastEditTime: 2020-05-23 16:02:57
+ * @LastEditTime: 2020-06-03 15:11:10
  * @LastEditors: yyt
  * @FilePath: /taoNote/README.md
 -->
@@ -45,3 +45,7 @@
 #### 追本溯源
 
 前端技术背后的核心思想
+
+## 技能树
+
+![前端技能树](https://yangyuetao.cn/demos/static/img/taoNote/0.svg)
